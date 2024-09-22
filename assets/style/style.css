@@ -69,9 +69,7 @@ body {
     padding-bottom: 2rem;
 }
 
-main .formlink a.linkContact,
 main .formlink,
-.contact .contactForm form,
 .projectContainer .project-box .profile-icon,
 .projectContainer,
 .aboutMe .profile .about,
@@ -84,10 +82,6 @@ main .formlink,
     width: 85%;
     min-height: inherit;
     margin: 0 auto;
-}
-
-.contact-Bnt {
-    background-color: var(--crimson);
 }
 
 .container-COE header,
@@ -188,23 +182,20 @@ main .formlink a.Resume ion-icon {
 
 
 .aboutMe .head-litle,
-.project .head-litle,
-.contact .head-litle {
+.project .head-litle {
     text-align: center;
     margin: 12.5rem 0 4.5rem 0;
 }
 
 .aboutMe .head-litle h1,
-.project .head-litle h1,
-.contact .head-litle h1 {
+.project .head-litle h1 {
     font-size: 3.4rem;
     color: var(--white);
     text-transform: capitalize;
 }
 
 .aboutMe .head-litle p,
-.project .head-litle p,
-.contact .head-litle p {
+.project .head-litle p {
     font-size: 1.1rem;
     color: var(--gray--color);
     font-weight: 300;
@@ -418,46 +409,6 @@ main .formlink a.Resume ion-icon {
     display: inline-block;
 }
 
-.contact .contactForm {
-    margin: 0 auto;
-    width: 80%;
-}
-
-.contact .contactForm form {
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contact .contactForm input,
-.contact .contactForm textarea {
-    padding: 0.7rem 0.4rem;
-    border-radius: 0.2rem;
-    background-color: var(--border-color);
-    color: var(--white-sm);
-}
-
-.contact .contactForm input[type="text"],
-.contact .contactForm input[type="email"] {
-    margin: 0.5rem;
-    width: 48%;
-}
-
-.contact .contactForm textarea {
-    width: 98%;
-    margin: 0.5rem 0;
-    resize: none;
-}
-
-.contact .contactForm input[type="submit"] {
-    min-width: 12rem;
-    padding: 0.7rem;
-    font-size: 1.08rem;
-    margin-top: 0.9rem;
-    background-color: var(--crimson);
-    color: var(--white-sm);
-    cursor: pointer;
-    text-transform: capitalize;
-}
 
 footer {
     display: block;
@@ -510,15 +461,6 @@ footer p strong {
     }
 }
 
-@media only screen and (max-width: 1220px) {
-
-    .contact .contactForm input[type="text"],
-    .contact .contactForm input[type="email"],
-    .contact .contactForm textarea {
-        width: 100%;
-        margin: 0.5rem 0;
-    }
-}
 
 @media only screen and (max-width: 1150px) {
     .projectContainer {
@@ -543,10 +485,6 @@ footer p strong {
         min-width: 100%;
     }
 
-    .contact .contactForm {
-        width: 98%;
-    }
-
     main .headerContent h1.admin {
         font-size: 3.2rem;
         text-wrap: nowrap;
@@ -565,10 +503,6 @@ footer p strong {
 @media only screen and (max-width: 750px) {
     main .formlink {
         flex-direction: column;
-    }
-
-    main .formlink a.linkContact {
-        max-width: 10rem;
     }
 }
 
