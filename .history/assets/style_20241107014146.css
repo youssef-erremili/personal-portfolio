@@ -461,8 +461,8 @@ footer p strong {
         font-size: 1.8rem;
     }
 
-    .projectContainer .project-box h1 {
-        font-size: 1.110rem !important;
+    .projectContainer .project-box a h1 {
+        font-size: 1.3rem;
     }
 
     main .headerContent h1.admin span::after {

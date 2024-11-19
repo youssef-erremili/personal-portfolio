@@ -15,7 +15,7 @@ function fetchProjcts() {
                     <img src="${element.image}" alt="project image" >
                 </section>
                 <div class="title-project">
-                    <h1 class="project-title text-red-500">${element.title}</h1>
+                    <h1 class="project-title text">${element.title}</h1>
                     <button @click='open = true; demo="${element.demo}"; link="${element.link}"; technologies=${technologies}; description="${description}"' class="flex items-center py-2 px-4 mr-1 rounded-md bg-slate-800 text-white ring-indigo-700 ring-offset-1 ring-offset-transparent focus:ring-1">
                         <ion-icon class="mr-1 text-lg" name="eye-outline"></ion-icon>
                         Details
